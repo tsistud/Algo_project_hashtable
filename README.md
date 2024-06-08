@@ -1,41 +1,21 @@
-```markdown
-# **To-Do List Application**
+# To-Do List Application
 
-## Описание
-Это простое консольное приложение для управления задачами (To-Do List), реализованное на языке C#. Приложение позволяет добавлять, удалять, редактировать задачи, отмечать их как выполненные и просматривать все задачи. Для хранения задач используется самописная хеш-таблица.
+## Description
+This is a simple console application for managing tasks (To-Do List) implemented in C#. The application allows you to add, delete, edit tasks, mark them as completed, and view all tasks. A custom hash table is used to store the tasks.
 
-## Функционал
-- **Добавление задачи**: Позволяет добавить новую задачу в список.
-- **Удаление задачи**: Позволяет удалить задачу из списка.
-- **Отметка задачи как выполненной**: Позволяет отметить задачу как выполненную.
-- **Просмотр всех задач**: Отображает все задачи и их статусы.
-- **Редактирование задачи**: Позволяет изменить название существующей задачи.
-- **Поиск задачи**: Позволяет найти задачу по названию и отобразить её статус.
+## Features
+- **Add Task**: Allows you to add a new task to the list.
+- **Delete Task**: Allows you to delete a task from the list.
+- **Mark Task as Completed**: Allows you to mark a task as completed.
+- **View All Tasks**: Displays all tasks and their statuses.
+- **Edit Task**: Allows you to change the name of an existing task.
+- **Find Task**: Allows you to find a task by its name and display its status.
 
-## Использование
-1. Скачайте и откройте проект в вашей IDE (например, Visual Studio).
-2. Запустите проект.
-3. Следуйте инструкциям в консольном приложении.
+## Usage
+1. Download and open the project in your IDE (e.g., Visual Studio).
+2. Run the project.
+3. Follow the instructions in the console application.
 
-## Пример использования
-При запуске приложения в консоли появится меню:
+## Example Usage
+Upon launching the application, the following menu will appear in the console:
 
-```
-1. Добавить задачу
-2. Удалить задачу
-3. Отметить задачу как выполненную
-4. Показать все задачи
-5. Редактировать задачу
-6. Найти задачу
-7. Выйти
-```
-
-**Выберите действие:**
-
-Введите номер действия, чтобы выполнить соответствующую операцию.
-
-### Пример
-- Чтобы добавить задачу, выберите `1` и введите название задачи.
-- Чтобы отметить задачу как выполненную, выберите `3` и введите название задачи.
-- Чтобы показать все задачи, выберите `4`.
-```
