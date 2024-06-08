@@ -19,3 +19,21 @@ This is a simple console application for managing tasks (To-Do List) implemented
 ## Example Usage
 Upon launching the application, the following menu will appear in the console:
 
+Add Task
+Delete Task
+Mark Task as Completed
+View All Tasks
+Edit Task
+Find Task
+Exit
+
+
+**Select an action:**
+
+Enter the action number to perform the corresponding operation.
+
+### Example
+- To add a task, select `1` and enter the task name.
+- To mark a task as completed, select `3` and enter the task name.
+- To view all tasks, select `4`.
+
